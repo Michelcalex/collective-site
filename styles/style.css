@@ -1,3 +1,38 @@
-h1 {
-    background-color: blue;
+nav {
+    height: 15%;
+    width: 100%;
+    position: fixed;
+    background-color: #3a4056;
 }
+
+nav ul li {
+    display: inline-block;
+    border: 1px solid red;
+    vertical-align: middle;
+    padding: 10px;
+}
+
+.header-container {
+    height: 500px;
+    background-image: url("http://howtousevinevera.com/wp-content/uploads/2015/02/Vine-Vera-Lifestyle-Guide-Interiors2.jpg");
+    background-size: 100% 500px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial;
+    color: #460b5b;
+    padding-top: 275px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px #000;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+h3 {
+   font-size: 18px;
+   color: #4d4d4f;
+   text-shadow: 1px 1px #000;
+   margin-top: 0;
+}
+
