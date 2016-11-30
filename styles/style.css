@@ -22,7 +22,7 @@ nav ul {
 }
 
 .header-container {
-    height: 800px;
+    height: 700px;
     background-image: url("http://www.pixelyumyum.com/wp-content/uploads/interior-design-LisaMcCoyInteriors1.jpg");
     background-size: 100% 700px;
     text-align: center;
@@ -70,9 +70,12 @@ h4 {
 
 .right-content-box{
     height: 277px;
-    text-align: left;
     border: 2px solid #000;
     padding: 10px 46px;
+}
+
+.right-content-box p {
+    text-align: left;
 }
 
 h3 {
@@ -80,6 +83,7 @@ h3 {
     font-size: 24px;
     margin-bottom: 0px;
     margin-top: 14px;
+    text-align: left;
 }
 
 .subheading {
@@ -88,6 +92,7 @@ h3 {
 
 p {
     font-size: 14px;
+    text-align: center;
 }
 
 .portfolio-container {
@@ -101,10 +106,6 @@ h2 {
     text-align: center;
 }
 
-.portfolio-container p {
-    text-align: center;
-}
-
 .portfolio-grid {
     padding-top: 5%;
     padding-bottom: 5%;
@@ -112,16 +113,101 @@ h2 {
 
 .portfolio-grid ul {
     padding: 0;
-    width: 104%;
+    width: 100%;
 }
 
 .portfolio-box {
-    width: 23%;
-    height: 176px;    
     display: inline-block;
     margin: 1px 8px;
 }
 
 .outer-box-left {
     margin-left: 0;
+}
+
+.team-container {
+    height: 900px;
+    background-color: #fff;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-box {
+    width: 29%;
+    height: 250px;
+    display: inline-block;
+    margin: 40px 21px;
+}
+
+.team-grid ul {
+    padding-left:0;
+    padding-top: 5%;
+}
+
+.left {
+    background-image: url("http://collective.stonedthemes.com/v4/wp-content/uploads/2016/03/mm1-800x489.jpg");
+    background-size: cover;
+}
+
+.center {
+    background-image: url("http://collective.stonedthemes.com/v4/wp-content/uploads/2016/03/mm7-800x489.jpg");
+    background-size: cover;
+}
+
+.right {
+    background-image: url("http://collective.stonedthemes.com/v4/wp-content/uploads/2016/03/mm5-800x489.jpg");
+    background-size: cover;
+}
+
+.name-container {
+    width: 85%;
+    height: 90px;
+    background-color: rgba(0,0,0,0.75);
+    margin-top: 135px;
+    display: inline-block;
+    vertical-align: top;
+    color: #fff;
+    padding: 5px;
+
+}
+
+.name-box-left {
+    width: 50%;
+    float: left;
+    text-align: left;
+    padding-left: 22px;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-size: 17px;
+    margin-bottom: 0px;
+}
+
+.name-box-left p {
+    font-size: 12px;
+    text-align: left;
+    margin-top: 5px;
+}
+
+.name-box-right {
+    width: 35%;
+    float: right;
+    padding-right: 22px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.circles {
+    width: 29%;
+    height: 35px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #fff;
+}
+
+.fa {
+    padding: 9px;
 }
